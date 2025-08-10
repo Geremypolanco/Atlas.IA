@@ -1,0 +1,130 @@
+{
+  "timestamp": "2025-08-10T13:45:02.526Z",
+  "sectores_analizados": 6,
+  "diagnosticos": [
+    {
+      "sector": "finanzas",
+      "problema_detectado": "Automatización IA para finanzas",
+      "nivel_urgencia": "baja",
+      "solucion_propuesta": "Sistema IA Atlas para automatizacion en finanzas",
+      "tiempo_implementacion": "12 días",
+      "roi_estimado": "423%",
+      "costo_desarrollo": 25707,
+      "timestamp": "2025-08-10T13:45:00.132Z"
+    },
+    {
+      "sector": "tecnologia",
+      "problema_detectado": "Integración de sistemas en tecnologia",
+      "nivel_urgencia": "alta",
+      "solucion_propuesta": "Sistema IA Atlas para integracion en tecnologia",
+      "tiempo_implementacion": "31 días",
+      "roi_estimado": "522%",
+      "costo_desarrollo": 26812,
+      "timestamp": "2025-08-10T13:45:00.557Z"
+    },
+    {
+      "sector": "economia",
+      "problema_detectado": "Optimización de procesos en economia",
+      "nivel_urgencia": "baja",
+      "solucion_propuesta": "Sistema IA Atlas para eficiencia en economia",
+      "tiempo_implementacion": "35 días",
+      "roi_estimado": "534%",
+      "costo_desarrollo": 51544,
+      "timestamp": "2025-08-10T13:45:01.050Z"
+    },
+    {
+      "sector": "salud",
+      "problema_detectado": "Optimización de procesos en salud",
+      "nivel_urgencia": "alta",
+      "solucion_propuesta": "Sistema IA Atlas para eficiencia en salud",
+      "tiempo_implementacion": "31 días",
+      "roi_estimado": "229%",
+      "costo_desarrollo": 50693,
+      "timestamp": "2025-08-10T13:45:01.738Z"
+    },
+    {
+      "sector": "informacion",
+      "problema_detectado": "Integración de sistemas en informacion",
+      "nivel_urgencia": "media",
+      "solucion_propuesta": "Sistema IA Atlas para integracion en informacion",
+      "tiempo_implementacion": "14 días",
+      "roi_estimado": "435%",
+      "costo_desarrollo": 29000,
+      "timestamp": "2025-08-10T13:45:01.949Z"
+    },
+    {
+      "sector": "finanzas",
+      "problema_detectado": "Automatización IA para finanzas",
+      "nivel_urgencia": "alta",
+      "solucion_propuesta": "Sistema IA Atlas para automatizacion en finanzas",
+      "tiempo_implementacion": "32 días",
+      "roi_estimado": "315%",
+      "costo_desarrollo": 30525,
+      "timestamp": "2025-08-10T13:45:02.326Z"
+    }
+  ],
+  "oportunidades": [
+    {
+      "sector": "finanzas",
+      "tipo": "analytics",
+      "descripcion": "Dashboard analytics premium para finanzas",
+      "potencial": 70965,
+      "tiempo_mercado": "60 días",
+      "competencia": "alta",
+      "viabilidad": 82,
+      "timestamp": "2025-08-10T13:45:00.132Z"
+    },
+    {
+      "sector": "tecnologia",
+      "tipo": "consultoria",
+      "descripcion": "Consultoría especializada IA para tecnologia",
+      "potencial": 24471,
+      "tiempo_mercado": "48 días",
+      "competencia": "baja",
+      "viabilidad": 97,
+      "timestamp": "2025-08-10T13:45:00.557Z"
+    },
+    {
+      "sector": "economia",
+      "tipo": "consultoria",
+      "descripcion": "Consultoría especializada IA para economia",
+      "potencial": 89826,
+      "tiempo_mercado": "78 días",
+      "competencia": "alta",
+      "viabilidad": 81,
+      "timestamp": "2025-08-10T13:45:01.050Z"
+    },
+    {
+      "sector": "salud",
+      "tipo": "analytics",
+      "descripcion": "Dashboard analytics premium para salud",
+      "potencial": 38507,
+      "tiempo_mercado": "31 días",
+      "competencia": "alta",
+      "viabilidad": 76,
+      "timestamp": "2025-08-10T13:45:01.738Z"
+    },
+    {
+      "sector": "informacion",
+      "tipo": "analytics",
+      "descripcion": "Dashboard analytics premium para informacion",
+      "potencial": 15572,
+      "tiempo_mercado": "86 días",
+      "competencia": "media",
+      "viabilidad": 80,
+      "timestamp": "2025-08-10T13:45:01.949Z"
+    },
+    {
+      "sector": "finanzas",
+      "tipo": "marketplace",
+      "descripcion": "Marketplace B2B para finanzas",
+      "potencial": 28973,
+      "tiempo_mercado": "43 días",
+      "competencia": "baja",
+      "viabilidad": 66,
+      "timestamp": "2025-08-10T13:45:02.326Z"
+    }
+  ],
+  "total_oportunidades": 6,
+  "potencial_total": 268314
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "grupo": "familia",
+    "contactos": 15,
+    "respuestas_esperadas": 6,
+    "revenue_potencial": 1344,
+    "mensaje_enviado": "⚠️ ATLAS AI detectó necesidad urgente. Servicios e...",
+    "status": "ENVIADO"
+  },
+  {
+    "grupo": "amigos_cercanos",
+    "contactos": 25,
+    "respuestas_esperadas": 7,
+    "revenue_potencial": 1568,
+    "mensaje_enviado": "⚠️ ATLAS AI detectó necesidad urgente. Servicios e...",
+    "status": "ENVIADO"
+  },
+  {
+    "grupo": "colegas",
+    "contactos": 40,
+    "respuestas_esperadas": 8,
+    "revenue_potencial": 1792,
+    "mensaje_enviado": "⚠️ ATLAS AI detectó necesidad urgente. Servicios e...",
+    "status": "ENVIADO"
+  },
+  {
+    "grupo": "network_profesional",
+    "contactos": 60,
+    "respuestas_esperadas": 9,
+    "revenue_potencial": 2016,
+    "mensaje_enviado": "⚠️ ATLAS AI detectó necesidad urgente. Servicios e...",
+    "status": "ENVIADO"
+  },
+  {
+    "grupo": "linkedin_connections",
+    "contactos": 150,
+    "respuestas_esperadas": 12,
+    "revenue_potencial": 2688,
+    "mensaje_enviado": "⚠️ ATLAS AI detectó necesidad urgente. Servicios e...",
+    "status": "ENVIADO"
+  },
+  {
+    "grupo": "email_lista",
+    "contactos": 300,
+    "respuestas_esperadas": 15,
+    "revenue_potencial": 3360,
+    "mensaje_enviado": "⚠️ ATLAS AI detectó necesidad urgente. Servicios e...",
+    "status": "ENVIADO"
+  }
+]

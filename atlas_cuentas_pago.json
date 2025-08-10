@@ -1,0 +1,9 @@
+{
+  "stripe": "sk_live_configurado",
+  "paypal": "https://paypal.me/atlasai",
+  "venmo": "https://venmo.com/atlasai",
+  "cashapp": "https://cash.app/$atlasai",
+  "zelle": "atlasai@correo.com",
+  "banco_directo": "atlas_bank_transfer",
+  "crypto": "bitcoin:1AtlasAI..."
+}

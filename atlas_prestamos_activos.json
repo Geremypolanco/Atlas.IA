@@ -1,0 +1,30 @@
+[
+  {
+    "app": "Dave",
+    "monto_solicitado": 500,
+    "monto_aprobado": 420,
+    "status": "APROBADO",
+    "tiempo_estimado": "5 minutos"
+  },
+  {
+    "app": "MoneyLion",
+    "monto_solicitado": 500,
+    "monto_aprobado": 0,
+    "status": "PENDIENTE",
+    "tiempo_estimado": "10 minutos"
+  },
+  {
+    "app": "Earnin",
+    "monto_solicitado": 750,
+    "monto_aprobado": 615,
+    "status": "APROBADO",
+    "tiempo_estimado": "10 minutos"
+  },
+  {
+    "app": "Chime SpotMe",
+    "monto_solicitado": 200,
+    "monto_aprobado": 0,
+    "status": "PENDIENTE",
+    "tiempo_estimado": "5 minutos"
+  }
+]

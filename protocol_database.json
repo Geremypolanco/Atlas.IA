@@ -1,0 +1,22 @@
+{
+  "crisis_types": [
+    "Financial emergency",
+    "Operational disruption",
+    "Market downturn",
+    "Supply chain crisis",
+    "Cybersecurity incident",
+    "Regulatory changes"
+  ],
+  "response_frameworks": {
+    "immediate": "0-24 hours action items",
+    "short_term": "1-7 days stabilization",
+    "medium_term": "1-4 weeks recovery",
+    "long_term": "1-12 months rebuilding"
+  },
+  "success_metrics": [
+    "Time to stabilization",
+    "Revenue preservation",
+    "Operational continuity",
+    "Stakeholder satisfaction"
+  ]
+}

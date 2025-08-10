@@ -1,0 +1,30 @@
+[
+  {
+    "plataforma": "LinkedIn",
+    "tipo": "Article",
+    "titulo": "Cómo generar $2000 en 5 horas: Mi protocolo de emergencia",
+    "engagement_esperado": 500,
+    "leads_potenciales": 25
+  },
+  {
+    "plataforma": "Twitter",
+    "tipo": "Thread",
+    "titulo": "🧵 THREAD: $2000 emergency income protocol (step-by-step)",
+    "engagement_esperado": 200,
+    "leads_potenciales": 15
+  },
+  {
+    "plataforma": "Instagram",
+    "tipo": "Reel",
+    "titulo": "Emergency income hack that banks dont want you to know",
+    "engagement_esperado": 800,
+    "leads_potenciales": 40
+  },
+  {
+    "plataforma": "TikTok",
+    "tipo": "Video",
+    "titulo": "POV: You need $2000 in 5 hours (what I did)",
+    "engagement_esperado": 1500,
+    "leads_potenciales": 75
+  }
+]

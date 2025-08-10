@@ -1,0 +1,77 @@
+{
+  "market_trends": {
+    "trending_keywords": [
+      "AI automation",
+      "Digital transformation",
+      "Remote work optimization",
+      "Crisis management",
+      "Business continuity"
+    ],
+    "growth_sectors": [
+      "Small business consulting",
+      "Digital product creation",
+      "Process automation",
+      "Crisis response services"
+    ],
+    "market_sentiment": "positive",
+    "demand_level": 8.7
+  },
+  "competitor_analysis": {
+    "direct_competitors": [
+      {
+        "name": "McKinsey Digital",
+        "strength": 9,
+        "weakness": "High pricing"
+      },
+      {
+        "name": "Local consulting firms",
+        "strength": 6,
+        "weakness": "Limited automation"
+      },
+      {
+        "name": "Freelance consultants",
+        "strength": 4,
+        "weakness": "No scalability"
+      }
+    ],
+    "competitive_advantage": [
+      "Full automation capability",
+      "Real-time implementation",
+      "Crisis response specialization",
+      "Affordable pricing"
+    ],
+    "market_gap": "Automated business consulting for SMBs"
+  },
+  "demand_signals": {
+    "high_demand_services": [
+      "AI implementation consulting",
+      "Crisis response planning",
+      "Digital transformation",
+      "Process automation"
+    ],
+    "urgency_indicators": [
+      "Economic uncertainty",
+      "Digital adoption acceleration",
+      "Remote work challenges",
+      "Efficiency requirements"
+    ],
+    "price_sensitivity": "moderate",
+    "decision_timeline": "2-4 weeks"
+  },
+  "pricing_intelligence": {
+    "market_rates": {
+      "consulting": "$150-500/hour",
+      "digital_products": "$97-497",
+      "automation_services": "$2000-15000/project",
+      "crisis_response": "$5000-25000/engagement"
+    },
+    "optimal_pricing": {
+      "consulting": "$197/hour",
+      "digital_products": "$147",
+      "automation_services": "$4997/project",
+      "crisis_response": "$7997/engagement"
+    },
+    "price_elasticity": 0.7
+  },
+  "opportunity_score": 7.122045063444576
+}

@@ -1,0 +1,18 @@
+{
+  "categories": [
+    "Business Plan Templates",
+    "Marketing Strategy Frameworks",
+    "Financial Planning Tools",
+    "Operational Process Maps",
+    "HR Policy Templates",
+    "Legal Document Templates"
+  ],
+  "total_products": 48,
+  "pricing_tiers": {
+    "individual": 47,
+    "bundle": 197,
+    "enterprise": 497
+  },
+  "delivery_method": "automated_download",
+  "update_frequency": "monthly"
+}

@@ -1,0 +1,269 @@
+{
+  "timestamp": "2025-08-10T13:45:01.031Z",
+  "versiones_clonadas": [
+    {
+      "nicho": "ONGs",
+      "nombre_producto": "Atlas AI ONGs",
+      "precio": 497,
+      "descripcion": "Automatización para organizaciones sin fines de lucro",
+      "caracteristicas_especializadas": [
+        "Dashboard específico para ONGs",
+        "Automatizaciones personalizadas",
+        "Integraciones relevantes al sector",
+        "Soporte especializado 24/7",
+        "Analytics avanzados del sector"
+      ],
+      "url_clone": "https://atlas-ongs.replit.app",
+      "github_repo": "atlas-ai-ongs",
+      "status": "CLONADO",
+      "fecha_creacion": "2025-08-10T13:45:00.027Z"
+    },
+    {
+      "nicho": "Gobiernos",
+      "nombre_producto": "Atlas AI Gobiernos",
+      "precio": 2997,
+      "descripcion": "Soluciones IA para administración pública",
+      "caracteristicas_especializadas": [
+        "Dashboard específico para Gobiernos",
+        "Automatizaciones personalizadas",
+        "Integraciones relevantes al sector",
+        "Soporte especializado 24/7",
+        "Analytics avanzados del sector"
+      ],
+      "url_clone": "https://atlas-gobiernos.replit.app",
+      "github_repo": "atlas-ai-gobiernos",
+      "status": "CLONADO",
+      "fecha_creacion": "2025-08-10T13:45:00.128Z"
+    },
+    {
+      "nicho": "Freelancers",
+      "nombre_producto": "Atlas AI Freelancers",
+      "precio": 197,
+      "descripcion": "Herramientas IA para freelancers",
+      "caracteristicas_especializadas": [
+        "Dashboard específico para Freelancers",
+        "Automatizaciones personalizadas",
+        "Integraciones relevantes al sector",
+        "Soporte especializado 24/7",
+        "Analytics avanzados del sector"
+      ],
+      "url_clone": "https://atlas-freelancers.replit.app",
+      "github_repo": "atlas-ai-freelancers",
+      "status": "CLONADO",
+      "fecha_creacion": "2025-08-10T13:45:00.228Z"
+    },
+    {
+      "nicho": "Corporativos",
+      "nombre_producto": "Atlas AI Corporativos",
+      "precio": 9997,
+      "descripcion": "Suite empresarial IA completa",
+      "caracteristicas_especializadas": [
+        "Dashboard específico para Corporativos",
+        "Automatizaciones personalizadas",
+        "Integraciones relevantes al sector",
+        "Soporte especializado 24/7",
+        "Analytics avanzados del sector"
+      ],
+      "url_clone": "https://atlas-corporativos.replit.app",
+      "github_repo": "atlas-ai-corporativos",
+      "status": "CLONADO",
+      "fecha_creacion": "2025-08-10T13:45:00.329Z"
+    },
+    {
+      "nicho": "Startups",
+      "nombre_producto": "Atlas AI Startups",
+      "precio": 797,
+      "descripcion": "Acelerador IA para startups",
+      "caracteristicas_especializadas": [
+        "Dashboard específico para Startups",
+        "Automatizaciones personalizadas",
+        "Integraciones relevantes al sector",
+        "Soporte especializado 24/7",
+        "Analytics avanzados del sector"
+      ],
+      "url_clone": "https://atlas-startups.replit.app",
+      "github_repo": "atlas-ai-startups",
+      "status": "CLONADO",
+      "fecha_creacion": "2025-08-10T13:45:00.430Z"
+    },
+    {
+      "nicho": "Consultores",
+      "nombre_producto": "Atlas AI Consultores",
+      "precio": 1497,
+      "descripcion": "Plataforma IA para consultores",
+      "caracteristicas_especializadas": [
+        "Dashboard específico para Consultores",
+        "Automatizaciones personalizadas",
+        "Integraciones relevantes al sector",
+        "Soporte especializado 24/7",
+        "Analytics avanzados del sector"
+      ],
+      "url_clone": "https://atlas-consultores.replit.app",
+      "github_repo": "atlas-ai-consultores",
+      "status": "CLONADO",
+      "fecha_creacion": "2025-08-10T13:45:00.530Z"
+    },
+    {
+      "nicho": "Agencias",
+      "nombre_producto": "Atlas AI Agencias",
+      "precio": 4997,
+      "descripcion": "Automatización completa para agencias",
+      "caracteristicas_especializadas": [
+        "Dashboard específico para Agencias",
+        "Automatizaciones personalizadas",
+        "Integraciones relevantes al sector",
+        "Soporte especializado 24/7",
+        "Analytics avanzados del sector"
+      ],
+      "url_clone": "https://atlas-agencias.replit.app",
+      "github_repo": "atlas-ai-agencias",
+      "status": "CLONADO",
+      "fecha_creacion": "2025-08-10T13:45:00.630Z"
+    },
+    {
+      "nicho": "E-commerce",
+      "nombre_producto": "Atlas AI E-commerce",
+      "precio": 997,
+      "descripcion": "IA para optimización de ventas online",
+      "caracteristicas_especializadas": [
+        "Dashboard específico para E-commerce",
+        "Automatizaciones personalizadas",
+        "Integraciones relevantes al sector",
+        "Soporte especializado 24/7",
+        "Analytics avanzados del sector"
+      ],
+      "url_clone": "https://atlas-e-commerce.replit.app",
+      "github_repo": "atlas-ai-e-commerce",
+      "status": "CLONADO",
+      "fecha_creacion": "2025-08-10T13:45:00.730Z"
+    },
+    {
+      "nicho": "Educación",
+      "nombre_producto": "Atlas AI Educación",
+      "precio": 697,
+      "descripcion": "Plataforma educativa con IA",
+      "caracteristicas_especializadas": [
+        "Dashboard específico para Educación",
+        "Automatizaciones personalizadas",
+        "Integraciones relevantes al sector",
+        "Soporte especializado 24/7",
+        "Analytics avanzados del sector"
+      ],
+      "url_clone": "https://atlas-educación.replit.app",
+      "github_repo": "atlas-ai-educación",
+      "status": "CLONADO",
+      "fecha_creacion": "2025-08-10T13:45:00.830Z"
+    },
+    {
+      "nicho": "Salud",
+      "nombre_producto": "Atlas AI Salud",
+      "precio": 3997,
+      "descripcion": "Diagnósticos y análisis médico IA",
+      "caracteristicas_especializadas": [
+        "Dashboard específico para Salud",
+        "Automatizaciones personalizadas",
+        "Integraciones relevantes al sector",
+        "Soporte especializado 24/7",
+        "Analytics avanzados del sector"
+      ],
+      "url_clone": "https://atlas-salud.replit.app",
+      "github_repo": "atlas-ai-salud",
+      "status": "CLONADO",
+      "fecha_creacion": "2025-08-10T13:45:00.931Z"
+    }
+  ],
+  "ingresos_potenciales": [
+    {
+      "nicho": "ONGs",
+      "mercado_size": 50000,
+      "penetracion_esperada": "0.1%",
+      "clientes_potenciales": 50,
+      "precio_producto": 497,
+      "revenue_anual": 24850,
+      "roi_estimado": "293%"
+    },
+    {
+      "nicho": "Gobiernos",
+      "mercado_size": 5000,
+      "penetracion_esperada": "0.1%",
+      "clientes_potenciales": 5,
+      "precio_producto": 2997,
+      "revenue_anual": 14985,
+      "roi_estimado": "245%"
+    },
+    {
+      "nicho": "Freelancers",
+      "mercado_size": 200000,
+      "penetracion_esperada": "0.1%",
+      "clientes_potenciales": 200,
+      "precio_producto": 197,
+      "revenue_anual": 39400,
+      "roi_estimado": "374%"
+    },
+    {
+      "nicho": "Corporativos",
+      "mercado_size": 10000,
+      "penetracion_esperada": "0.1%",
+      "clientes_potenciales": 10,
+      "precio_producto": 9997,
+      "revenue_anual": 99970,
+      "roi_estimado": "534%"
+    },
+    {
+      "nicho": "Startups",
+      "mercado_size": 80000,
+      "penetracion_esperada": "0.1%",
+      "clientes_potenciales": 80,
+      "precio_producto": 797,
+      "revenue_anual": 63760,
+      "roi_estimado": "321%"
+    },
+    {
+      "nicho": "Consultores",
+      "mercado_size": 60000,
+      "penetracion_esperada": "0.1%",
+      "clientes_potenciales": 60,
+      "precio_producto": 1497,
+      "revenue_anual": 89820,
+      "roi_estimado": "341%"
+    },
+    {
+      "nicho": "Agencias",
+      "mercado_size": 30000,
+      "penetracion_esperada": "0.1%",
+      "clientes_potenciales": 30,
+      "precio_producto": 4997,
+      "revenue_anual": 149910,
+      "roi_estimado": "699%"
+    },
+    {
+      "nicho": "E-commerce",
+      "mercado_size": 150000,
+      "penetracion_esperada": "0.1%",
+      "clientes_potenciales": 150,
+      "precio_producto": 997,
+      "revenue_anual": 149550,
+      "roi_estimado": "542%"
+    },
+    {
+      "nicho": "Educación",
+      "mercado_size": 40000,
+      "penetracion_esperada": "0.1%",
+      "clientes_potenciales": 40,
+      "precio_producto": 697,
+      "revenue_anual": 27880,
+      "roi_estimado": "472%"
+    },
+    {
+      "nicho": "Salud",
+      "mercado_size": 25000,
+      "penetracion_esperada": "0.1%",
+      "clientes_potenciales": 25,
+      "precio_producto": 3997,
+      "revenue_anual": 99925,
+      "roi_estimado": "620%"
+    }
+  ],
+  "total_potencial_anual": 760050,
+  "nichos_cubiertos": 10
+}

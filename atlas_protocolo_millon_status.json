@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-10T13:41:44.361Z",
+  "protocolo_activado": true,
+  "objetivo": 1000000,
+  "tiempo_limite": "24 horas",
+  "fases_completadas": 4,
+  "resultados": {
+    "artefactos_generados": {
+      "success": true,
+      "artefactos_generados": 5,
+      "nichos_cubiertos": [
+        "emprendedores",
+        "freelancers",
+        "consultores",
+        "agencias",
+        "inversores"
+      ],
+      "potencial_total": 1275000,
+      "meta_objetivo": 1000000
+    },
+    "sistema_pagos": {
+      "success": true,
+      "metodos_configurados": 6,
+      "limite_total_diario": 3675000,
+      "comision_promedio": 0.021333333333333333,
+      "entrega_automatica": true
+    },
+    "viralizacion": {
+      "success": true,
+      "plataformas_utilizadas": 10,
+      "reach_total": 5220000,
+      "trafico_esperado": 88220,
+      "posts_totales": 1430,
+      "canal_mas_efectivo": "Reddit"
+    },
+    "ventas_iniciales": {
+      "ventas_simuladas": 100,
+      "ingreso_simulado": 30939,
+      "conversion_rate_real": 0.0011335298118340512,
+      "precio_promedio": 309.39,
+      "proyeccion_24h": null
+    }
+  },
+  "metricas_iniciales": {
+    "ventas_totales": 100,
+    "ingreso_total": 30939,
+    "ventas_por_minuto": 0,
+    "trafico_actual": 88220,
+    "conversion_rate": 0.0011335298118340512,
+    "canal_mas_efectivo": "Telegram",
+    "tiempo_transcurrido": 0,
+    "progreso_objetivo": 3.0939,
+    "tiempo_para_objetivo": "N/A"
+  },
+  "intervencion_humana": "0%",
+  "status": "PROTOCOLO_ACTIVO_GENERANDO"
+}

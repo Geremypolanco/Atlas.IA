@@ -1,0 +1,356 @@
+{
+  "timestamp": "2025-08-10T13:45:26.001Z",
+  "absorption_cycle": 1754833526,
+  "sources_processed": 42,
+  "successful_sources": 35,
+  "total_data_points_absorbed": 250,
+  "total_articles_absorbed": 50,
+  "absorption_results": [
+    {
+      "success": true,
+      "source": "Hacker News",
+      "type": "news",
+      "data_points": 250,
+      "articles_count": 50,
+      "content_sample": [
+        {
+          "type": "hn_story",
+          "id": 44854035,
+          "category": "technology"
+        },
+        {
+          "type": "hn_story",
+          "id": 44854989,
+          "category": "technology"
+        },
+        {
+          "type": "hn_story",
+          "id": 44854508,
+          "category": "technology"
+        }
+      ],
+      "absorption_timestamp": "2025-08-10T13:45:00.052Z"
+    },
+    {
+      "success": true,
+      "source": "Hacker News Best",
+      "type": "news",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:00.269Z"
+    },
+    {
+      "success": true,
+      "source": "Hacker News New",
+      "type": "news",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:00.479Z"
+    },
+    {
+      "success": true,
+      "source": "JSONPlaceholder Posts",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:00.731Z"
+    },
+    {
+      "success": true,
+      "source": "JSONPlaceholder Users",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:00.966Z"
+    },
+    {
+      "success": true,
+      "source": "HTTPBin IP Info",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:01.289Z"
+    },
+    {
+      "success": true,
+      "source": "World Bank GDP",
+      "type": "government",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:01.621Z"
+    },
+    {
+      "success": true,
+      "source": "World Bank Population",
+      "type": "government",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:02.025Z"
+    },
+    {
+      "success": true,
+      "source": "Rest Countries",
+      "type": "government",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:02.371Z"
+    },
+    {
+      "success": true,
+      "source": "Cat Facts",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:02.843Z"
+    },
+    {
+      "success": true,
+      "source": "Dog API",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:03.227Z"
+    },
+    {
+      "success": true,
+      "source": "CoinGecko Markets",
+      "type": "financial",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:03.476Z"
+    },
+    {
+      "success": true,
+      "source": "CoinGecko Trending",
+      "type": "financial",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:03.717Z"
+    },
+    {
+      "success": true,
+      "source": "CoinGecko Global",
+      "type": "financial",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:03.995Z"
+    },
+    {
+      "success": true,
+      "source": "Exchange Rates USD",
+      "type": "financial",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:04.248Z"
+    },
+    {
+      "success": true,
+      "source": "Exchange Rates EUR",
+      "type": "financial",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:04.501Z"
+    },
+    {
+      "success": true,
+      "source": "IP Info",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:05.958Z"
+    },
+    {
+      "success": true,
+      "source": "GitHub Public Events",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:07.075Z"
+    },
+    {
+      "success": true,
+      "source": "GitHub Public Repos",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:07.484Z"
+    },
+    {
+      "success": true,
+      "source": "GitHub Public Users",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:07.745Z"
+    },
+    {
+      "success": true,
+      "source": "HTTPBin Headers",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:08.448Z"
+    },
+    {
+      "success": true,
+      "source": "HTTPBin User Agent",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:08.679Z"
+    },
+    {
+      "success": true,
+      "source": "Random Jokes",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:08.949Z"
+    },
+    {
+      "success": true,
+      "source": "Numbers Facts",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:09.457Z"
+    },
+    {
+      "success": true,
+      "source": "Agify Names",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:10.039Z"
+    },
+    {
+      "success": true,
+      "source": "ISS Location",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:18.154Z"
+    },
+    {
+      "success": true,
+      "source": "People in Space",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:18.397Z"
+    },
+    {
+      "success": true,
+      "source": "Random User",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:18.743Z"
+    },
+    {
+      "success": true,
+      "source": "ZIP Codes",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:19.025Z"
+    },
+    {
+      "success": true,
+      "source": "Random Facts",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:19.998Z"
+    },
+    {
+      "success": true,
+      "source": "Random Advice",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:23.827Z"
+    },
+    {
+      "success": true,
+      "source": "ChuckNorris Facts",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:24.656Z"
+    },
+    {
+      "success": true,
+      "source": "Random Dog Image",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:25.163Z"
+    },
+    {
+      "success": true,
+      "source": "Random Cat Image",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:25.513Z"
+    },
+    {
+      "success": true,
+      "source": "Public Holidays",
+      "type": "api",
+      "data_points": 0,
+      "articles_count": 0,
+      "content_sample": [],
+      "absorption_timestamp": "2025-08-10T13:45:25.799Z"
+    }
+  ],
+  "knowledge_base": {
+    "total_sources": 35,
+    "total_articles": 100,
+    "total_data_points": 500,
+    "knowledge_domains": [
+      "news",
+      "api",
+      "government",
+      "financial",
+      "academic"
+    ],
+    "last_update": "2025-08-10T13:45:26.000Z",
+    "absorption_rate": 5.9523809523809526,
+    "intelligence_level": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "features": [
+    "Project dashboard",
+    "File sharing system",
+    "Progress tracking",
+    "Communication center",
+    "Invoice management",
+    "Resource library access"
+  ],
+  "automation_features": [
+    "Progress updates",
+    "Milestone notifications",
+    "Automated invoicing",
+    "Resource recommendations"
+  ],
+  "access_levels": [
+    "client",
+    "project_manager",
+    "admin"
+  ]
+}

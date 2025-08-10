@@ -1,0 +1,47 @@
+[
+  {
+    "servicio": "Consultoría Express 1h",
+    "precio": 299,
+    "paypal_link": "https://paypal.me/atlasai/299",
+    "stripe_link": "https://buy.stripe.com/atlas_299",
+    "venmo_request": "@atlasai $299",
+    "urgencia": "hoy",
+    "disponible": "INMEDIATAMENTE"
+  },
+  {
+    "servicio": "CV + LinkedIn Profesional",
+    "precio": 149,
+    "paypal_link": "https://paypal.me/atlasai/149",
+    "stripe_link": "https://buy.stripe.com/atlas_149",
+    "venmo_request": "@atlasai $149",
+    "urgencia": "24h",
+    "disponible": "INMEDIATAMENTE"
+  },
+  {
+    "servicio": "Análisis Datos Urgente",
+    "precio": 199,
+    "paypal_link": "https://paypal.me/atlasai/199",
+    "stripe_link": "https://buy.stripe.com/atlas_199",
+    "venmo_request": "@atlasai $199",
+    "urgencia": "2h",
+    "disponible": "INMEDIATAMENTE"
+  },
+  {
+    "servicio": "Marketing Digital Express",
+    "precio": 249,
+    "paypal_link": "https://paypal.me/atlasai/249",
+    "stripe_link": "https://buy.stripe.com/atlas_249",
+    "venmo_request": "@atlasai $249",
+    "urgencia": "4h",
+    "disponible": "INMEDIATAMENTE"
+  },
+  {
+    "servicio": "Automatización Procesos",
+    "precio": 399,
+    "paypal_link": "https://paypal.me/atlasai/399",
+    "stripe_link": "https://buy.stripe.com/atlas_399",
+    "venmo_request": "@atlasai $399",
+    "urgencia": "6h",
+    "disponible": "INMEDIATAMENTE"
+  }
+]

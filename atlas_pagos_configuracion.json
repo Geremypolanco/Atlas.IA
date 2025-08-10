@@ -1,0 +1,62 @@
+[
+  {
+    "metodo": "Stripe",
+    "comision": 0.029,
+    "tiempo_procesamiento": "instantaneo",
+    "limite_diario": 1000000,
+    "webhook_url": "https://atlas-ai.replit.app/webhook/stripe",
+    "auto_delivery": true,
+    "backup_activo": true,
+    "monitoreo_24h": true
+  },
+  {
+    "metodo": "PayPal",
+    "comision": 0.034,
+    "tiempo_procesamiento": "instantaneo",
+    "limite_diario": 500000,
+    "webhook_url": "https://atlas-ai.replit.app/webhook/paypal",
+    "auto_delivery": true,
+    "backup_activo": true,
+    "monitoreo_24h": true
+  },
+  {
+    "metodo": "CashApp",
+    "comision": 0.025,
+    "tiempo_procesamiento": "instantaneo",
+    "limite_diario": 100000,
+    "webhook_url": "https://atlas-ai.replit.app/webhook/cashapp",
+    "auto_delivery": true,
+    "backup_activo": true,
+    "monitoreo_24h": true
+  },
+  {
+    "metodo": "Venmo",
+    "comision": 0.025,
+    "tiempo_procesamiento": "instantaneo",
+    "limite_diario": 50000,
+    "webhook_url": "https://atlas-ai.replit.app/webhook/venmo",
+    "auto_delivery": true,
+    "backup_activo": true,
+    "monitoreo_24h": true
+  },
+  {
+    "metodo": "Zelle",
+    "comision": 0,
+    "tiempo_procesamiento": "instantaneo",
+    "limite_diario": 25000,
+    "webhook_url": "https://atlas-ai.replit.app/webhook/zelle",
+    "auto_delivery": true,
+    "backup_activo": true,
+    "monitoreo_24h": true
+  },
+  {
+    "metodo": "Crypto",
+    "comision": 0.015,
+    "tiempo_procesamiento": "10min",
+    "limite_diario": 2000000,
+    "webhook_url": "https://atlas-ai.replit.app/webhook/crypto",
+    "auto_delivery": true,
+    "backup_activo": true,
+    "monitoreo_24h": true
+  }
+]

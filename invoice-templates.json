@@ -1,0 +1,86 @@
+[
+  {
+    "service_name": "Consultoría Express 1h",
+    "amount": 299,
+    "currency": "USD",
+    "payment_terms": "24 hours",
+    "late_fee": 14.950000000000001,
+    "auto_reminder": true,
+    "payment_links": {
+      "paypal": "https://paypal.me/username/299",
+      "stripe": "Auto-generated checkout",
+      "venmo": "Venmo @username - $299",
+      "zelle": "Zelle - $299"
+    }
+  },
+  {
+    "service_name": "CV + LinkedIn Profesional",
+    "amount": 149,
+    "currency": "USD",
+    "payment_terms": "24 hours",
+    "late_fee": 7.45,
+    "auto_reminder": true,
+    "payment_links": {
+      "paypal": "https://paypal.me/username/149",
+      "stripe": "Auto-generated checkout",
+      "venmo": "Venmo @username - $149",
+      "zelle": "Zelle - $149"
+    }
+  },
+  {
+    "service_name": "Análisis de Datos Urgente",
+    "amount": 199,
+    "currency": "USD",
+    "payment_terms": "24 hours",
+    "late_fee": 9.950000000000001,
+    "auto_reminder": true,
+    "payment_links": {
+      "paypal": "https://paypal.me/username/199",
+      "stripe": "Auto-generated checkout",
+      "venmo": "Venmo @username - $199",
+      "zelle": "Zelle - $199"
+    }
+  },
+  {
+    "service_name": "Marketing Digital Express",
+    "amount": 249,
+    "currency": "USD",
+    "payment_terms": "24 hours",
+    "late_fee": 12.450000000000001,
+    "auto_reminder": true,
+    "payment_links": {
+      "paypal": "https://paypal.me/username/249",
+      "stripe": "Auto-generated checkout",
+      "venmo": "Venmo @username - $249",
+      "zelle": "Zelle - $249"
+    }
+  },
+  {
+    "service_name": "Website Landing Page",
+    "amount": 399,
+    "currency": "USD",
+    "payment_terms": "24 hours",
+    "late_fee": 19.950000000000003,
+    "auto_reminder": true,
+    "payment_links": {
+      "paypal": "https://paypal.me/username/399",
+      "stripe": "Auto-generated checkout",
+      "venmo": "Venmo @username - $399",
+      "zelle": "Zelle - $399"
+    }
+  },
+  {
+    "service_name": "Consultoría Mensual",
+    "amount": 599,
+    "currency": "USD",
+    "payment_terms": "24 hours",
+    "late_fee": 29.950000000000003,
+    "auto_reminder": true,
+    "payment_links": {
+      "paypal": "https://paypal.me/username/599",
+      "stripe": "Auto-generated checkout",
+      "venmo": "Venmo @username - $599",
+      "zelle": "Zelle - $599"
+    }
+  }
+]

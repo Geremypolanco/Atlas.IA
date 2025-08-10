@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2025-08-10T13:41:43.372Z",
+    "estado_previo": {
+      "nivel_cognitivo": 2,
+      "sectores_analizados": 5,
+      "crisis_detectadas": 0,
+      "oportunidades_identificadas": 5,
+      "artefactos_creados": 10,
+      "ingresos_generados": 760050,
+      "presencia_viral": 88220,
+      "versiones_clonadas": 10,
+      "evolucion_continua": true
+    },
+    "metricas": {
+      "ingresos_actuales": 45791,
+      "tráfico_viral": 88220,
+      "conversion_rate": 0,
+      "sectores_activos": 5,
+      "oportunidades_activas": 5
+    },
+    "mutaciones_aplicadas": 4,
+    "mejoras_implementadas": 4,
+    "nivel_evolucion": 1
+  },
+  {
+    "timestamp": "2025-08-10T13:45:00.027Z",
+    "estado_previo": {
+      "nivel_cognitivo": 2,
+      "sectores_analizados": 5,
+      "crisis_detectadas": 1,
+      "oportunidades_identificadas": 5,
+      "artefactos_creados": 10,
+      "ingresos_generados": 760050,
+      "presencia_viral": 88220,
+      "versiones_clonadas": 10,
+      "evolucion_continua": true
+    },
+    "metricas": {
+      "ingresos_actuales": 51520,
+      "tráfico_viral": 88220,
+      "conversion_rate": 0,
+      "sectores_activos": 5,
+      "oportunidades_activas": 5
+    },
+    "mutaciones_aplicadas": 3,
+    "mejoras_implementadas": 3,
+    "nivel_evolucion": 2
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "productos": [
+    {
+      "nombre": "MacBook Pro 2019 (usado)",
+      "precio_mercado": 800,
+      "precio_urgente": 650,
+      "plataforma": "Facebook Marketplace",
+      "tiempo_venta": "2-6 horas",
+      "descuento": 19,
+      "urgencia": "VENTA FAMILIAR URGENTE",
+      "negociable": true,
+      "entrega_inmediata": true
+    },
+    {
+      "nombre": "iPhone 12 (excelente estado)",
+      "precio_mercado": 400,
+      "precio_urgente": 320,
+      "plataforma": "OfferUp",
+      "tiempo_venta": "1-4 horas",
+      "descuento": 20,
+      "urgencia": "VENTA FAMILIAR URGENTE",
+      "negociable": true,
+      "entrega_inmediata": true
+    },
+    {
+      "nombre": "Monitor 4K Dell",
+      "precio_mercado": 300,
+      "precio_urgente": 240,
+      "plataforma": "Craigslist",
+      "tiempo_venta": "2-8 horas",
+      "descuento": 20,
+      "urgencia": "VENTA FAMILIAR URGENTE",
+      "negociable": true,
+      "entrega_inmediata": true
+    },
+    {
+      "nombre": "Silla Herman Miller (usada)",
+      "precio_mercado": 250,
+      "precio_urgente": 180,
+      "plataforma": "Mercari",
+      "tiempo_venta": "4-12 horas",
+      "descuento": 28,
+      "urgencia": "VENTA FAMILIAR URGENTE",
+      "negociable": true,
+      "entrega_inmediata": true
+    }
+  ],
+  "servicios": [
+    {
+      "servicio": "Mudanza express este fin de semana",
+      "precio": 300,
+      "plataforma": "TaskRabbit",
+      "disponibilidad": "INMEDIATA"
+    },
+    {
+      "servicio": "Limpieza profunda casa (4h)",
+      "precio": 200,
+      "plataforma": "Handy",
+      "disponibilidad": "HOY"
+    },
+    {
+      "servicio": "Ensamblaje muebles IKEA",
+      "precio": 150,
+      "plataforma": "TaskRabbit",
+      "disponibilidad": "MAÑANA"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "name": "atlas-ai",
+  "builds": [
+    {
+      "src": "server/main.ts",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "client/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/server/main.ts"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/client/$1"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "functions": {
+    "server/main.ts": {
+      "maxDuration": 30
+    }
+  }
+}

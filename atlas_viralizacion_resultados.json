@@ -1,0 +1,82 @@
+[
+  {
+    "plataforma": "Telegram",
+    "posts_realizados": 150,
+    "reach_total": 750000,
+    "trafico_generado": 15000,
+    "conversion_rate": 0.02,
+    "status": "EJECUTADO"
+  },
+  {
+    "plataforma": "Reddit",
+    "posts_realizados": 80,
+    "reach_total": 1200000,
+    "trafico_generado": 18000,
+    "conversion_rate": 0.015,
+    "status": "EJECUTADO"
+  },
+  {
+    "plataforma": "Facebook Groups",
+    "posts_realizados": 200,
+    "reach_total": 600000,
+    "trafico_generado": 15000,
+    "conversion_rate": 0.025,
+    "status": "EJECUTADO"
+  },
+  {
+    "plataforma": "LinkedIn Groups",
+    "posts_realizados": 50,
+    "reach_total": 400000,
+    "trafico_generado": 14000,
+    "conversion_rate": 0.035,
+    "status": "EJECUTADO"
+  },
+  {
+    "plataforma": "Discord Servers",
+    "posts_realizados": 100,
+    "reach_total": 200000,
+    "trafico_generado": 4000,
+    "conversion_rate": 0.02,
+    "status": "EJECUTADO"
+  },
+  {
+    "plataforma": "Twitter Threads",
+    "posts_realizados": 30,
+    "reach_total": 750000,
+    "trafico_generado": 7500,
+    "conversion_rate": 0.01,
+    "status": "EJECUTADO"
+  },
+  {
+    "plataforma": "YouTube Comments",
+    "posts_realizados": 500,
+    "reach_total": 500000,
+    "trafico_generado": 4000,
+    "conversion_rate": 0.008,
+    "status": "EJECUTADO"
+  },
+  {
+    "plataforma": "GitHub README",
+    "posts_realizados": 200,
+    "reach_total": 500000,
+    "trafico_generado": 6000,
+    "conversion_rate": 0.012,
+    "status": "EJECUTADO"
+  },
+  {
+    "plataforma": "Medium Articles",
+    "posts_realizados": 20,
+    "reach_total": 240000,
+    "trafico_generado": 4320,
+    "conversion_rate": 0.018,
+    "status": "EJECUTADO"
+  },
+  {
+    "plataforma": "Pastebin",
+    "posts_realizados": 100,
+    "reach_total": 80000,
+    "trafico_generado": 400,
+    "conversion_rate": 0.005,
+    "status": "EJECUTADO"
+  }
+]

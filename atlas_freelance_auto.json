@@ -1,0 +1,97 @@
+{
+  "plataformas": [
+    {
+      "nombre": "Fiverr",
+      "gigs": [
+        {
+          "servicio": "Consultoría IA express",
+          "precio": 75,
+          "delivery": "24h"
+        },
+        {
+          "servicio": "CV ATS-optimized",
+          "precio": 45,
+          "delivery": "12h"
+        },
+        {
+          "servicio": "LinkedIn profile rewrite",
+          "precio": 35,
+          "delivery": "6h"
+        },
+        {
+          "servicio": "Data analysis dashboard",
+          "precio": 125,
+          "delivery": "48h"
+        }
+      ]
+    },
+    {
+      "nombre": "Upwork",
+      "propuestas": [
+        {
+          "proyecto": "Urgent data visualization",
+          "bid": 350,
+          "probabilidad": 0.25
+        },
+        {
+          "proyecto": "Emergency website audit",
+          "bid": 200,
+          "probabilidad": 0.3
+        },
+        {
+          "proyecto": "LinkedIn strategy consultation",
+          "bid": 150,
+          "probabilidad": 0.35
+        },
+        {
+          "proyecto": "Business process automation",
+          "bid": 500,
+          "probabilidad": 0.2
+        }
+      ]
+    },
+    {
+      "nombre": "Freelancer",
+      "bids": [
+        {
+          "proyecto": "Excel dashboard creation",
+          "bid": 180,
+          "probabilidad": 0.2
+        },
+        {
+          "proyecto": "Social media audit",
+          "bid": 120,
+          "probabilidad": 0.25
+        },
+        {
+          "proyecto": "Market research report",
+          "bid": 250,
+          "probabilidad": 0.15
+        }
+      ]
+    }
+  ],
+  "activaciones": [
+    {
+      "plataforma": "Fiverr",
+      "tipo": "gigs",
+      "cantidad": 4,
+      "revenue_potencial": 168,
+      "status": "ACTIVO"
+    },
+    {
+      "plataforma": "Upwork",
+      "tipo": "propuestas",
+      "cantidad": 4,
+      "revenue_potencial": 300,
+      "status": "ENVIADAS"
+    },
+    {
+      "plataforma": "Freelancer",
+      "tipo": "bids",
+      "cantidad": 3,
+      "revenue_potencial": 103.5,
+      "status": "ENVIADOS"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "AI Readiness Assessment",
+  "questions": [
+    "Current technology infrastructure level (1-10)",
+    "Data quality and accessibility (1-10)",
+    "Team technical expertise (1-10)",
+    "Budget allocation for AI implementation",
+    "Expected ROI timeline",
+    "Specific business processes to automate"
+  ],
+  "scoring_algorithm": "weighted_average",
+  "recommendations_engine": "rule_based",
+  "pricing": {
+    "basic": 0,
+    "detailed": 297,
+    "enterprise": 997
+  }
+}

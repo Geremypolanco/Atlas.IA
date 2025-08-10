@@ -1,0 +1,21 @@
+{
+  "assessment_criteria": [
+    "Financial stability indicators",
+    "Operational disruption level",
+    "Market position vulnerability",
+    "Resource availability",
+    "Timeline constraints"
+  ],
+  "response_protocols": {
+    "financial_crisis": "immediate_cash_flow_optimization",
+    "operational_crisis": "business_continuity_activation",
+    "market_crisis": "competitive_repositioning",
+    "resource_crisis": "efficiency_maximization"
+  },
+  "automation_triggers": [
+    "Automatic alert system",
+    "Resource mobilization",
+    "Stakeholder notification",
+    "Action plan activation"
+  ]
+}
