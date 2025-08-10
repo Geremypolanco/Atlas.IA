@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtlasOutbound-AI Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card-shadow {
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .metric-card {
+            transition: transform 0.2s;
+        }
+        .metric-card:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white p-6">
+        <div class="container mx-auto">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h1 class="text-3xl font-bold">AtlasOutbound-AI</h1>
+                    <p class="text-blue-100">Autonomous Lead Generation & Outreach System</p>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="text-right">
+                        <div class="text-sm text-blue-100">System Status</div>
+                        <div class="flex items-center">
+                            <div class="w-2 h-2 bg-green-400 rounded-full mr-2"></div>
+                            <span class="text-sm font-medium">Operational</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Dashboard -->
+    <main class="container mx-auto px-6 py-8">
+        <!-- Key Metrics -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <div class="bg-white rounded-lg p-6 card-shadow metric-card">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-gray-600 text-sm">Total Leads</p>
+                        <p class="text-3xl font-bold text-gray-800" id="total-leads">0</p>
+                    </div>
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg p-6 card-shadow metric-card">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-gray-600 text-sm">Messages Sent</p>
+                        <p class="text-3xl font-bold text-gray-800" id="messages-sent">0</p>
+                    </div>
+                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg p-6 card-shadow metric-card">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-gray-600 text-sm">Open Rate</p>
+                        <p class="text-3xl font-bold text-gray-800"><span id="open-rate">0</span>%</p>
+                    </div>
+                    <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg p-6 card-shadow metric-card">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-gray-600 text-sm">Reply Rate</p>
+                        <p class="text-3xl font-bold text-gray-800"><span id="reply-rate">0</span>%</p>
+                    </div>
+                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts and Tables -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+            <!-- Performance Chart -->
+            <div class="bg-white rounded-lg p-6 card-shadow">
+                <h3 class="text-lg font-semibold mb-4">Performance Trends</h3>
+                <canvas id="performanceChart" width="400" height="200"></canvas>
+            </div>
+
+            <!-- Lead Sources -->
+            <div class="bg-white rounded-lg p-6 card-shadow">
+                <h3 class="text-lg font-semibold mb-4">Lead Sources</h3>
+                <canvas id="sourcesChart" width="400" height="200"></canvas>
+            </div>
+        </div>
+
+        <!-- Recent Activity and Top Leads -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <!-- Recent Activity -->
+            <div class="bg-white rounded-lg p-6 card-shadow">
+                <h3 class="text-lg font-semibold mb-4">Recent Activity</h3>
+                <div class="space-y-4" id="recent-activity">
+                    <!-- Activity items will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Top Leads -->
+            <div class="bg-white rounded-lg p-6 card-shadow">
+                <h3 class="text-lg font-semibold mb-4">High-Priority Leads</h3>
+                <div class="space-y-4" id="top-leads">
+                    <!-- Top leads will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="mt-8 flex flex-wrap gap-4">
+            <button id="find-leads-btn" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                🔍 Find New Leads
+            </button>
+            <button id="score-leads-btn" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                📊 Score All Leads
+            </button>
+            <button id="generate-messages-btn" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                ✍️ Generate Messages
+            </button>
+            <button id="send-outreach-btn" class="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                📧 Send Outreach
+            </button>
+            <button id="view-analytics-btn" class="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                📈 View Analytics
+            </button>
+        </div>
+    </main>
+
+    <script>
+        // Dashboard JavaScript
+        class AtlasOutboundDashboard {
+            constructor() {
+                this.initializeCharts();
+                this.loadDashboardData();
+                this.setupEventListeners();
+                this.startAutoRefresh();
+            }
+
+            initializeCharts() {
+                // Performance Trends Chart
+                const performanceCtx = document.getElementById('performanceChart').getContext('2d');
+                this.performanceChart = new Chart(performanceCtx, {
+                    type: 'line',
+                    data: {
+                        labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                        datasets: [{
+                            label: 'Messages Sent',
+                            data: [12, 19, 8, 15, 25, 18, 22],
+                            borderColor: 'rgb(75, 192, 192)',
+                            backgroundColor: 'rgba(75, 192, 192, 0.1)',
+                            tension: 0.1
+                        }, {
+                            label: 'Replies',
+                            data: [1, 3, 2, 4, 6, 4, 5],
+                            borderColor: 'rgb(255, 99, 132)',
+                            backgroundColor: 'rgba(255, 99, 132, 0.1)',
+                            tension: 0.1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: {
+                                position: 'top',
+                            }
+                        }
+                    }
+                });
+
+                // Lead Sources Chart
+                const sourcesCtx = document.getElementById('sourcesChart').getContext('2d');
+                this.sourcesChart = new Chart(sourcesCtx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Apollo', 'Hunter', 'LinkedIn', 'Google', 'Manual'],
+                        datasets: [{
+                            data: [30, 25, 20, 15, 10],
+                            backgroundColor: [
+                                '#FF6384',
+                                '#36A2EB',
+                                '#FFCE56',
+                                '#4BC0C0',
+                                '#9966FF'
+                            ]
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: {
+                                position: 'bottom',
+                            }
+                        }
+                    }
+                });
+            }
+
+            async loadDashboardData() {
+                try {
+                    // Simulate API calls - replace with actual endpoints
+                    const metrics = await this.fetchMetrics();
+                    this.updateMetrics(metrics);
+                    
+                    const activity = await this.fetchRecentActivity();
+                    this.updateRecentActivity(activity);
+                    
+                    const topLeads = await this.fetchTopLeads();
+                    this.updateTopLeads(topLeads);
+                } catch (error) {
+                    console.error('Error loading dashboard data:', error);
+                }
+            }
+
+            async fetchMetrics() {
+                // Mock data - replace with actual API call
+                return {
+                    totalLeads: 1247,
+                    messagesSent: 892,
+                    openRate: 24.5,
+                    replyRate: 8.2
+                };
+            }
+
+            async fetchRecentActivity() {
+                // Mock data - replace with actual API call
+                return [
+                    { type: 'lead_found', message: 'Found 25 new leads in AI industry', time: '2 minutes ago' },
+                    { type: 'message_sent', message: 'Sent outreach to John Smith at TechCorp', time: '5 minutes ago' },
+                    { type: 'reply_received', message: 'Reply received from Sarah Johnson', time: '12 minutes ago' },
+                    { type: 'lead_scored', message: 'Scored 156 leads automatically', time: '1 hour ago' }
+                ];
+            }
+
+            async fetchTopLeads() {
+                // Mock data - replace with actual API call
+                return [
+                    { name: 'John Smith', company: 'TechCorp Inc', score: 95, status: 'new' },
+                    { name: 'Sarah Johnson', company: 'AI Innovations', score: 92, status: 'contacted' },
+                    { name: 'Mike Brown', company: 'DataFlow Systems', score: 88, status: 'opened' },
+                    { name: 'Lisa Davis', company: 'FutureTech', score: 85, status: 'clicked' }
+                ];
+            }
+
+            updateMetrics(metrics) {
+                document.getElementById('total-leads').textContent = metrics.totalLeads.toLocaleString();
+                document.getElementById('messages-sent').textContent = metrics.messagesSent.toLocaleString();
+                document.getElementById('open-rate').textContent = metrics.openRate;
+                document.getElementById('reply-rate').textContent = metrics.replyRate;
+            }
+
+            updateRecentActivity(activities) {
+                const container = document.getElementById('recent-activity');
+                container.innerHTML = activities.map(activity => `
+                    <div class="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
+                        <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                        <div class="flex-1">
+                            <p class="text-sm text-gray-800">${activity.message}</p>
+                            <p class="text-xs text-gray-500">${activity.time}</p>
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            updateTopLeads(leads) {
+                const container = document.getElementById('top-leads');
+                container.innerHTML = leads.map(lead => `
+                    <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                        <div>
+                            <p class="font-medium text-gray-800">${lead.name}</p>
+                            <p class="text-sm text-gray-600">${lead.company}</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-sm font-medium text-gray-800">Score: ${lead.score}</p>
+                            <span class="inline-block px-2 py-1 text-xs rounded-full bg-blue-100 text-blue-800">
+                                ${lead.status}
+                            </span>
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            setupEventListeners() {
+                document.getElementById('find-leads-btn').addEventListener('click', () => {
+                    this.executeAction('find_leads');
+                });
+
+                document.getElementById('score-leads-btn').addEventListener('click', () => {
+                    this.executeAction('score_leads');
+                });
+
+                document.getElementById('generate-messages-btn').addEventListener('click', () => {
+                    this.executeAction('generate_messages');
+                });
+
+                document.getElementById('send-outreach-btn').addEventListener('click', () => {
+                    this.executeAction('send_outreach');
+                });
+
+                document.getElementById('view-analytics-btn').addEventListener('click', () => {
+                    this.executeAction('view_analytics');
+                });
+            }
+
+            async executeAction(action) {
+                const button = event.target;
+                const originalText = button.textContent;
+                
+                // Show loading state
+                button.textContent = '⏳ Processing...';
+                button.disabled = true;
+                
+                try {
+                    switch(action) {
+                        case 'find_leads':
+                            await this.findNewLeads();
+                            break;
+                        case 'score_leads':
+                            await this.scoreLeads();
+                            break;
+                        case 'generate_messages':
+                            await this.generateMessages();
+                            break;
+                        case 'send_outreach':
+                            await this.sendOutreach();
+                            break;
+                        case 'view_analytics':
+                            this.viewAnalytics();
+                            break;
+                    }
+                    
+                    // Refresh data after action
+                    await this.loadDashboardData();
+                } catch (error) {
+                    console.error(`Error executing ${action}:`, error);
+                    alert(`Error: ${error.message}`);
+                } finally {
+                    // Restore button
+                    button.textContent = originalText;
+                    button.disabled = false;
+                }
+            }
+
+            async findNewLeads() {
+                // Mock implementation - replace with actual API call
+                await new Promise(resolve => setTimeout(resolve, 2000));
+                alert('✅ Found 25 new leads in AI and fintech industries!');
+            }
+
+            async scoreLeads() {
+                // Mock implementation - replace with actual API call
+                await new Promise(resolve => setTimeout(resolve, 1500));
+                alert('✅ Scored 156 leads successfully!');
+            }
+
+            async generateMessages() {
+                // Mock implementation - replace with actual API call
+                await new Promise(resolve => setTimeout(resolve, 1000));
+                alert('✅ Generated 45 personalized messages!');
+            }
+
+            async sendOutreach() {
+                // Mock implementation - replace with actual API call
+                await new Promise(resolve => setTimeout(resolve, 3000));
+                alert('✅ Sent 20 outreach messages successfully!');
+            }
+
+            viewAnalytics() {
+                // Open analytics in new tab or modal
+                window.open('/atlas-outbound/analytics', '_blank');
+            }
+
+            startAutoRefresh() {
+                // Refresh dashboard every 5 minutes
+                setInterval(() => {
+                    this.loadDashboardData();
+                }, 5 * 60 * 1000);
+            }
+        }
+
+        // Initialize dashboard when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            new AtlasOutboundDashboard();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+{
+  "subject_lines": {
+    "general": [
+      "Quick question about {company}'s growth strategy",
+      "Helping {company} scale with AI automation",
+      "{name}, thought you'd find this interesting",
+      "Atlas AI solution for {industry} leaders",
+      "5-minute chat about {company}'s digital transformation?",
+      "AI implementation strategy for {company}",
+      "{name}, scaling {company} with intelligent automation",
+      "Streamlining operations at {company}",
+      "{company}'s competitive advantage through AI",
+      "Quick wins for {company} through automation"
+    ],
+    "ceo": [
+      "{name}, scaling {company} with AI leadership",
+      "Strategic AI implementation for {company}",
+      "CEO-to-CEO: AI transformation insights",
+      "{name}, executive briefing on AI ROI",
+      "Board-level AI strategy for {company}",
+      "Enterprise AI roadmap for {company}",
+      "{name}, C-suite AI transformation guide",
+      "Strategic automation for {company} growth"
+    ],
+    "cto": [
+      "Technical deep-dive: AI architecture for {company}",
+      "{name}, engineering-first AI implementation",
+      "CTO insights: AI infrastructure at scale",
+      "Technical roadmap for {company}'s AI journey",
+      "{name}, developer-friendly AI integration",
+      "Scalable AI architecture for {company}",
+      "Engineering excellence in AI deployment",
+      "{name}, technical AI implementation strategy"
+    ],
+    "marketing": [
+      "Marketing automation for {company}",
+      "{name}, AI-powered customer acquisition",
+      "Scaling {company}'s marketing with AI",
+      "Customer intelligence for {company}",
+      "{name}, personalized marketing at scale",
+      "AI-driven growth for {company}",
+      "Marketing ROI optimization for {company}"
+    ]
+  },
+  "openers": {
+    "personal": [
+      "Hi {name},",
+      "Hello {name},",
+      "{name},",
+      "Hi there {name},",
+      "Good morning {name},",
+      "Hope you're well {name},"
+    ],
+    "formal": [
+      "Dear {name},",
+      "Hello Mr./Ms. {name},",
+      "Greetings {name},",
+      "Dear {position},"
+    ],
+    "casual": [
+      "Hey {name},",
+      "{name} -",
+      "Hi {name}!",
+      "Hey there {name},"
+    ]
+  },
+  "intros": {
+    "industry_specific": [
+      "I noticed {company} is making waves in the {industry} space.",
+      "Your work at {company} in {industry} caught my attention.",
+      "I've been following {company}'s growth in {industry}.",
+      "Impressive work you're doing at {company} in the {industry} sector.",
+      "I see {company} is leading innovation in {industry}.",
+      "Your {industry} expertise at {company} is impressive.",
+      "{company}'s impact in {industry} is noteworthy."
+    ],
+    "position_specific": [
+      "As {position} at {company}, you probably deal with...",
+      "In your role as {position}, I imagine you're focused on...",
+      "Leading {company} as {position} must involve...",
+      "Your expertise as {position} at {company} is valuable.",
+      "As the {position}, you're likely evaluating..."
+    ],
+    "general": [
+      "I hope this message finds you well.",
+      "I wanted to reach out with a quick thought.",
+      "I'm reaching out because...",
+      "I thought you might be interested in...",
+      "Quick question about your current priorities."
+    ]
+  },
+  "value_props": {
+    "ai_automation": [
+      "Atlas AI helps companies like {company} automate repetitive tasks and increase productivity by 40%.",
+      "We've helped similar {industry} companies reduce operational costs by 35% through intelligent automation.",
+      "Our AI solutions have enabled {industry} leaders to scale operations without proportional staff increases.",
+      "Atlas AI automates workflows at {company}, freeing your team for strategic work.",
+      "Companies using Atlas AI report 50% time savings on routine tasks."
+    ],
+    "revenue_growth": [
+      "Atlas AI has helped companies in {industry} increase revenue by an average of 28% in 6 months.",
+      "We've enabled {industry} businesses to identify new revenue streams through AI-powered insights.",
+      "Companies using Atlas AI report 45% faster customer acquisition in the {industry} space.",
+      "Our AI solutions have driven $2M+ in additional revenue for {industry} companies.",
+      "Atlas AI customers see average ROI of 300% within the first year."
+    ],
+    "competitive_advantage": [
+      "Atlas AI gives {industry} companies a competitive edge through advanced analytics and automation.",
+      "Stay ahead in {industry} with AI-powered decision making and predictive insights.",
+      "Join leading {industry} companies already using Atlas AI to outpace competitors.",
+      "Atlas AI provides the competitive intelligence {company} needs to dominate {industry}.",
+      "Leading {industry} companies trust Atlas AI for market advantage."
+    ],
+    "efficiency": [
+      "Atlas AI streamlines {company}'s operations, reducing manual work by 60%.",
+      "Our automation solutions help {industry} companies achieve 3x efficiency gains.",
+      "Atlas AI eliminates bottlenecks in {company}'s workflow processes.",
+      "Companies like {company} save 20+ hours per week with Atlas AI automation.",
+      "Atlas AI optimizes {company}'s processes for maximum efficiency."
+    ]
+  },
+  "social_proof": [
+    "We've helped over 500+ companies achieve similar results.",
+    "Companies like TechCorp and InnovateLabs have seen 40% efficiency gains.",
+    "Our clients in {industry} consistently report ROI within 90 days.",
+    "Leading {industry} companies trust Atlas AI for their automation needs.",
+    "Fortune 500 companies rely on Atlas AI for competitive advantage.",
+    "Startups to enterprises choose Atlas AI for scalable solutions.",
+    "Over 10,000 professionals use Atlas AI daily for productivity gains."
+  ],
+  "calls_to_action": {
+    "soft": [
+      "Would a brief 15-minute call make sense to explore if there's a fit?",
+      "Interested in a quick conversation about your current challenges?",
+      "Worth a brief chat to see if we can help {company}?",
+      "Open to a short discussion about your automation goals?",
+      "Would you be interested in learning more?",
+      "Happy to share some specific examples if helpful.",
+      "Worth exploring how this might apply to {company}?"
+    ],
+    "direct": [
+      "Let's schedule a 20-minute demo this week.",
+      "I'd love to show you exactly how this works for {company}.",
+      "Can we book 15 minutes this week to discuss your specific needs?",
+      "I'll send you a calendar link for a brief demo.",
+      "Would Tuesday or Wednesday work for a quick call?",
+      "Let me show you the ROI potential for {company}.",
+      "Ready to see Atlas AI in action for {company}?"
+    ],
+    "value_focused": [
+      "I'll show you exactly how {company} can save $X annually with Atlas AI.",
+      "Let me walk you through a ROI projection specific to {company}.",
+      "I'll prepare a custom analysis of {company}'s automation potential.",
+      "Want to see the specific efficiency gains possible for {company}?",
+      "I can demonstrate the exact impact on {company}'s bottom line.",
+      "Let's quantify the opportunity for {company}.",
+      "I'll prepare a business case tailored to {company}."
+    ]
+  },
+  "closings": [
+    "Best regards,",
+    "Best,",
+    "Thanks,",
+    "Looking forward to connecting,",
+    "Warm regards,",
+    "Cheers,",
+    "Talk soon,"
+  ],
+  "signatures": [
+    "Atlas AI Team\nAutomating the Future of Business\natlas-ai.com",
+    "Atlas AI Solutions\nIntelligent Automation for Modern Enterprises\natlas-ai.com",
+    "The Atlas AI Team\nEmpowering Businesses Through AI\natlas-ai.com",
+    "Atlas AI\nYour Partner in Digital Transformation\natlas-ai.com"
+  ],
+  "follow_up_templates": {
+    "no_response": [
+      "Just wanted to follow up on my previous message about {company}'s automation opportunities.",
+      "Circling back on the AI efficiency discussion for {company}.",
+      "Quick follow-up regarding the automation potential at {company}."
+    ],
+    "interested": [
+      "Thanks for your interest! Here's more information about how Atlas AI can help {company}.",
+      "Great to hear from you! Let me share some specific examples for {company}.",
+      "Excited to explore this further with {company}."
+    ],
+    "not_interested": [
+      "I understand Atlas AI might not be the right fit right now.",
+      "No problem - I'll keep you in mind for future innovations.",
+      "Thanks for the honest feedback about {company}'s current priorities."
+    ]
+  }
+}
